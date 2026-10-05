@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Auren RP - Terms of Service and Privacy Policy">
+  <title>Auren RP | Legal Documents</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #ffffff;
+      background:
+        radial-gradient(circle at top, rgba(45, 103, 190, 0.28), transparent 38%),
+        linear-gradient(135deg, #05070d 0%, #0a1020 50%, #03050a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 18px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: rgba(8, 13, 25, 0.92);
+      border: 1px solid rgba(85, 145, 230, 0.35);
+      border-radius: 24px;
+      padding: 50px 40px;
+      text-align: center;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(12px);
+    }
+
+    .logo {
+      width: 92px;
+      height: 92px;
+      margin: 0 auto 22px;
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      font-weight: 900;
+      color: #ffffff;
+      background: linear-gradient(145deg, #183e78, #07101f);
+      border: 1px solid rgba(112, 174, 255, 0.45);
+      box-shadow: 0 0 35px rgba(45, 125, 255, 0.22);
+    }
+
+    h1 {
+      font-size: clamp(32px, 6vw, 52px);
+      margin-bottom: 12px;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      color: #aebbd0;
+      font-size: 17px;
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 0 auto 34px;
+    }
+
+    .documents {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .document {
+      text-decoration: none;
+      color: #ffffff;
+      text-align: left;
+      padding: 26px;
+      border-radius: 18px;
+      background: linear-gradient(145deg, rgba(18, 32, 57, 0.95), rgba(8, 14, 26, 0.95));
+      border: 1px solid rgba(93, 151, 230, 0.3);
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .document:hover {
+      transform: translateY(-4px);
+      border-color: rgba(105, 176, 255, 0.8);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .document h2 {
+      font-size: 21px;
+      margin-bottom: 8px;
+    }
+
+    .document p {
+      color: #aebbd0;
+      line-height: 1.55;
+      font-size: 14px;
+    }
+
+    .date {
+      margin-top: 34px;
+      color: #8190a8;
+      font-size: 13px;
+    }
+
+    footer {
+      margin-top: 25px;
+      color: #68758b;
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .card {
+        padding: 35px 22px;
+      }
+
+      .documents {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <section class="card">
+      <div class="logo">A</div>
+
+      <h1>Auren RP</h1>
+
+      <p class="subtitle">
+        Bienvenido al portal oficial de documentos legales de Auren RP.
+        Aquí encontrarás los documentos relacionados con nuestro sistema
+        de tickets y los servicios de nuestra comunidad de Discord.
+      </p>
+
+      <div class="documents">
+        <a class="document" href="terms.html">
+          <div class="icon">⚖️</div>
+          <h2>Terms of Service</h2>
+          <p>
+            Consulta los Términos de Servicio aplicables al uso del sistema
+            de tickets y servicios de Auren RP.
+          </p>
+        </a>
+
+        <a class="document" href="privacy.html">
+          <div class="icon">🔒</div>
+          <h2>Privacy Policy</h2>
+          <p>
+            Consulta nuestra Política de Privacidad y conoce cómo se procesa
+            y protege la información relacionada con el sistema.
+          </p>
+        </a>
+      </div>
+
+      <p class="date">Última actualización: 5 de octubre de 2026</p>
+
+      <footer>
+        © 2026 Auren RP. Todos los derechos reservados.
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
