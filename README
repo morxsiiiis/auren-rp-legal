@@ -1,29 +1,79 @@
-# Auren RP Ticket Bot
+# 🔷 Auren RP — Legal Documents
 
-## Instalación
+Bienvenido al repositorio oficial de documentos legales de **Auren RP**.
 
-1. Instala Node.js.
-2. Abre esta carpeta en una terminal.
-3. Ejecuta:
-   npm install
-4. Renombra `.env.example` a `.env`.
-5. Pon tu token del bot en `DISCORD_TOKEN`.
-6. Pon el ID de tu servidor en `GUILD_ID`.
-7. No compartas nunca tu token.
-8. Ejecuta:
-   npm start
+Este repositorio contiene los documentos públicos relacionados con el sistema de tickets de Auren RP y su bot de Discord.
 
-## Panel
+---
 
-El panel se enviará al canal configurado con `PANEL_CHANNEL_ID`.
-La imagen incluida en `assets/auren-panel.png` se adjunta automáticamente al embed del panel.
+## 📜 Documentos
 
-## Comandos
+### Terms of Service
 
-- `/ticket-panel`
-- `/ticket-mensaje`
-- `/ticket-agregar`
-- `/ticket-quitar`
-- `/ticket-cerrar`
+Consulta los Términos de Servicio de Auren RP:
 
-Los cuatro roles configurados en `STAFF_ROLE_IDS` pueden reclamar y cerrar tickets.
+👉 [Ver Terms of Service](terms.html)
+
+### Privacy Policy
+
+Consulta la Política de Privacidad de Auren RP:
+
+👉 [Ver Privacy Policy](privacy.html)
+
+---
+
+## 🎫 Auren RP Ticket Bot
+
+El bot de tickets de Auren RP permite a los miembros de la comunidad crear y gestionar solicitudes mediante diferentes departamentos.
+
+Entre sus funciones se incluyen:
+
+- 🛠️ Soporte
+- 🚨 Reportes
+- ⚖️ Apelaciones
+- 💰 Donaciones
+- 🏢 Organizaciones
+- 📢 Reclamos
+- 💀 CK/PK
+- 👮 Reportes de Staff
+- 🎥 Streamers
+- 💼 Negocios
+- 📋 Postulaciones de Staff
+
+El sistema también permite al equipo autorizado de Auren RP reclamar y cerrar tickets, gestionar usuarios dentro de los tickets y mantener registros internos de las acciones realizadas.
+
+---
+
+## 🔒 Privacidad
+
+Auren RP procura utilizar únicamente la información necesaria para proporcionar y administrar el sistema de tickets.
+
+La información que puede procesarse incluye identificadores de Discord, información básica del usuario, información relacionada con los tickets y registros necesarios para el funcionamiento del sistema.
+
+Para obtener información completa, consulta nuestra:
+
+👉 [Privacy Policy](privacy.html)
+
+---
+
+## ⚖️ Términos de Servicio
+
+El uso del sistema de tickets de Auren RP está sujeto a nuestros Términos de Servicio.
+
+👉 [Terms of Service](terms.html)
+
+Al utilizar el sistema de tickets, aceptas cumplir estos términos, las reglas de Auren RP y las políticas aplicables de Discord.
+
+---
+
+## 📅 Última actualización
+
+**5 de octubre de 2026**
+
+---
+
+## 💙 Auren RP
+
+Sistema oficial de documentación legal para los servicios de Auren RP.
+
+© 2026 Auren RP. Todos los derechos reservados.
