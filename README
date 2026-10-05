@@ -1,0 +1,29 @@
+# Auren RP Ticket Bot
+
+## Instalación
+
+1. Instala Node.js.
+2. Abre esta carpeta en una terminal.
+3. Ejecuta:
+   npm install
+4. Renombra `.env.example` a `.env`.
+5. Pon tu token del bot en `DISCORD_TOKEN`.
+6. Pon el ID de tu servidor en `GUILD_ID`.
+7. No compartas nunca tu token.
+8. Ejecuta:
+   npm start
+
+## Panel
+
+El panel se enviará al canal configurado con `PANEL_CHANNEL_ID`.
+La imagen incluida en `assets/auren-panel.png` se adjunta automáticamente al embed del panel.
+
+## Comandos
+
+- `/ticket-panel`
+- `/ticket-mensaje`
+- `/ticket-agregar`
+- `/ticket-quitar`
+- `/ticket-cerrar`
+
+Los cuatro roles configurados en `STAFF_ROLE_IDS` pueden reclamar y cerrar tickets.
